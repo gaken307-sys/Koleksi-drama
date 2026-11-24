@@ -3,68 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nonton Drama</title>
-  <!-- Skrip Resmi Telegram Mini App -->
-  <script src="https://telegram.org"></script>
-  <style>
-    body {
-      background-color: #18222d;
-      color: #ffffff;
-      font-family: sans-serif;
-      margin: 0;
-      padding: 16px;
-    }
-    .card {
-      background: #222e3c;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 16px;
-    }
-    .btn {
-      background-color: #5b6ef5;
-      color: white;
-      border: none;
-      padding: 12px;
-      width: 100%;
-      border-radius: 8px;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    video {
-      width: 100%;
-      border-radius: 8px;
-      margin-top: 12px;
-      display: none;
-    }
-  </style>
+  <title>Koleksi Drama Saya</title>
 </head>
 <body>
-
-  <div class="card">
-    <h2>Susuku, Pedangku</h2>
-    <p>62 Episode • Drama</p>
-    <button class="btn" onclick="putarVideo()">▶ Mulai Nonton Episode 1</button>
-    
-    <!-- Pemutar Video Bawaan -->
-    <video id="player" controls playsinline>
-      <source src="https://w3schools.com" type="video/mp4">
-      Browser Anda tidak mendukung pemutar video.
-    </video>
-  </div>
-
-  <script>
-    // Aktifkan Telegram Web App & buka layar penuh
-    const tg = window.Telegram.WebApp;
-    tg.ready();
-    tg.expand();
-
-    function putarVideo() {
-      const video = document.getElementById('player');
-      video.style.display = 'block';
-      video.play();
-    }
-  </script>
-
+  <h1>Daftar Koleksi Drama</h1>
+  <ul>
+    <li>Judul Drama 1 (Tahun)</li>
+    <li>Judul Drama 2 (Tahun)</li>
+  </ul>
 </body>
 </html>
